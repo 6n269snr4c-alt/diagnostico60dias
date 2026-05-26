@@ -1220,7 +1220,7 @@ section.visible { opacity: 1; transform: none; }
     <!-- PROJEÇÃO: TEMPO + RECEITA -->
     <div style="background:var(--card); border:1px solid var(--acid-border); border-top:2px solid var(--acid); padding:36px 40px;">
       <div class="cell-label label-action" style="margin-bottom:8px;"><div class="cell-label-dot"></div>Projeção · Tempo e receita</div>
-      <p style="font-size:14px; color:var(--gray); margin-bottom:24px; line-height:1.6;">Premissas: F33 atual = 10 clientes/ano, 5 sessões de 3h cada. Lab = 15 empresários, 10 encontros/ano de 4h de mentoria + 1h de preparação cada.</p>
+      <p style="font-size:14px; color:var(--gray); margin-bottom:24px; line-height:1.6;">Premissas: F33 atual = 30 clientes/ano, 450h dedicadas. Lab = 15 empresários, 100h/ano (10 encontros de 4h + 1h prep cada).</p>
 
       <!-- COMPARATIVO PRINCIPAL -->
       <div style="display:grid; grid-template-columns:1fr 1fr; gap:2px; background:var(--line); margin-bottom:24px;">
@@ -1229,15 +1229,15 @@ section.visible { opacity: 1; transform: none; }
           <div style="font-size:10px; font-weight:700; letter-spacing:0.14em; text-transform:uppercase; color:var(--gray); margin-bottom:16px;">F33 Atual · 1:1</div>
           <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px;">
             <div>
-              <div style="font-family:'Bricolage Grotesque',sans-serif; font-size:40px; font-weight:800; letter-spacing:-0.03em; color:rgba(255,255,255,0.35); line-height:1;">150h</div>
+              <div style="font-family:'Bricolage Grotesque',sans-serif; font-size:40px; font-weight:800; letter-spacing:-0.03em; color:rgba(255,255,255,0.35); line-height:1;">450h</div>
               <div style="font-size:12px; color:var(--gray); margin-top:4px;">por ano dedicadas</div>
             </div>
             <div>
-              <div style="font-family:'Bricolage Grotesque',sans-serif; font-size:40px; font-weight:800; letter-spacing:-0.03em; color:rgba(255,255,255,0.35); line-height:1;">R$150k</div>
+              <div style="font-family:'Bricolage Grotesque',sans-serif; font-size:40px; font-weight:800; letter-spacing:-0.03em; color:rgba(255,255,255,0.35); line-height:1;">R$450k</div>
               <div style="font-size:12px; color:var(--gray); margin-top:4px;">receita anual</div>
             </div>
             <div>
-              <div style="font-family:'Bricolage Grotesque',sans-serif; font-size:22px; font-weight:800; letter-spacing:-0.02em; color:rgba(255,255,255,0.35); line-height:1;">10</div>
+              <div style="font-family:'Bricolage Grotesque',sans-serif; font-size:22px; font-weight:800; letter-spacing:-0.02em; color:rgba(255,255,255,0.35); line-height:1;">30</div>
               <div style="font-size:12px; color:var(--gray); margin-top:4px;">clientes atendidos</div>
             </div>
             <div>
@@ -1251,19 +1251,19 @@ section.visible { opacity: 1; transform: none; }
           <div style="font-size:10px; font-weight:700; letter-spacing:0.14em; text-transform:uppercase; color:var(--acid); margin-bottom:16px;">Fast Business Lab · Grupo ⚡</div>
           <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px;">
             <div>
-              <div style="font-family:'Bricolage Grotesque',sans-serif; font-size:40px; font-weight:800; letter-spacing:-0.03em; color:var(--acid); line-height:1;">50h</div>
+              <div style="font-family:'Bricolage Grotesque',sans-serif; font-size:40px; font-weight:800; letter-spacing:-0.03em; color:var(--acid); line-height:1;">100h</div>
               <div style="font-size:12px; color:var(--gray); margin-top:4px;">por ano dedicadas</div>
             </div>
             <div>
               <div style="font-family:'Bricolage Grotesque',sans-serif; font-size:40px; font-weight:800; letter-spacing:-0.03em; color:var(--acid); line-height:1;">R$450k</div>
-              <div style="font-size:12px; color:var(--gray); margin-top:4px;">receita anual</div>
+              <div style="font-size:12px; color:var(--gray); margin-top:4px;">mesma receita</div>
             </div>
             <div>
               <div style="font-family:'Bricolage Grotesque',sans-serif; font-size:22px; font-weight:800; letter-spacing:-0.02em; color:var(--acid); line-height:1;">15</div>
               <div style="font-size:12px; color:var(--gray); margin-top:4px;">empresários atendidos</div>
             </div>
             <div>
-              <div style="font-family:'Bricolage Grotesque',sans-serif; font-size:22px; font-weight:800; letter-spacing:-0.02em; color:var(--acid); line-height:1;">R$9.000/h</div>
+              <div style="font-family:'Bricolage Grotesque',sans-serif; font-size:22px; font-weight:800; letter-spacing:-0.02em; color:var(--acid); line-height:1;">R$4.500/h</div>
               <div style="font-size:12px; color:var(--gray); margin-top:4px;">receita por hora</div>
             </div>
           </div>
@@ -1274,28 +1274,58 @@ section.visible { opacity: 1; transform: none; }
       <!-- GAINS -->
       <div style="display:grid; grid-template-columns:1fr 1fr 1fr; gap:24px; margin-bottom:28px;">
         <div>
-          <div style="font-family:'Bricolage Grotesque',sans-serif; font-size:42px; font-weight:800; letter-spacing:-0.03em; color:var(--acid); line-height:1; margin-bottom:6px;">100h</div>
-          <div style="font-size:13px; color:var(--gray); line-height:1.5;">economizadas por ano — tempo que o Founder recupera para outros negócios, comercial ou vida</div>
+          <div style="font-family:'Bricolage Grotesque',sans-serif; font-size:42px; font-weight:800; letter-spacing:-0.03em; color:var(--acid); line-height:1; margin-bottom:6px;">350h</div>
+          <div style="font-size:13px; color:var(--gray); line-height:1.5;">economizadas por ano — com a mesma receita. Tempo que o Founder recupera para outros negócios, comercial ou vida</div>
         </div>
         <div>
-          <div style="font-family:'Bricolage Grotesque',sans-serif; font-size:42px; font-weight:800; letter-spacing:-0.03em; color:var(--acid); line-height:1; margin-bottom:6px;">+R$300k</div>
-          <div style="font-size:13px; color:var(--gray); line-height:1.5;">de receita adicional atendendo 5 pessoas a mais — no mesmo número de encontros</div>
+          <div style="font-family:'Bricolage Grotesque',sans-serif; font-size:42px; font-weight:800; letter-spacing:-0.03em; color:var(--acid); line-height:1; margin-bottom:6px;">= receita</div>
+          <div style="font-size:13px; color:var(--gray); line-height:1.5;">O ganho não é financeiro imediato — é de eficiência. Metade dos clientes, um terço do tempo, mesma entrada</div>
         </div>
         <div>
-          <div style="font-family:'Bricolage Grotesque',sans-serif; font-size:42px; font-weight:800; letter-spacing:-0.03em; color:var(--acid); line-height:1; margin-bottom:6px;">9×</div>
-          <div style="font-size:13px; color:var(--gray); line-height:1.5;">mais receita por hora — de R$1.000/h para R$9.000/h com o mesmo Founder entregando</div>
+          <div style="font-family:'Bricolage Grotesque',sans-serif; font-size:42px; font-weight:800; letter-spacing:-0.03em; color:var(--acid); line-height:1; margin-bottom:6px;">4,5×</div>
+          <div style="font-size:13px; color:var(--gray); line-height:1.5;">mais receita por hora — de R$1.000/h para R$4.500/h com o mesmo Founder entregando</div>
         </div>
       </div>
 
-      <!-- MODELO HÍBRIDO -->
-      <div style="border-top:1px solid var(--line); padding-top:24px;">
-        <div style="font-size:11px; font-weight:700; letter-spacing:0.14em; text-transform:uppercase; color:var(--gray); margin-bottom:16px;">Modelo híbrido recomendado · Lab + F33 Premium</div>
+      <!-- MODELO HÍBRIDO DE COBRANÇA -->
+      <div style="border-top:1px solid var(--line); padding-top:24px; margin-bottom:24px;">
+        <div style="font-size:11px; font-weight:700; letter-spacing:0.14em; text-transform:uppercase; color:var(--gray); margin-bottom:16px;">Modelo híbrido de cobrança · Mensalidade + % do crescimento</div>
         <div style="display:grid; grid-template-columns:1fr 1fr; gap:24px; align-items:start;">
           <div>
-            <p style="font-size:14px; color:var(--gray); line-height:1.65; margin-bottom:12px;">A personalização do 1:1 não precisa desaparecer — ela precisa se tornar mais rara e mais cara. O Lab resolve o volume e a comunidade. O F33 se torna produto de acesso restrito e ticket elevado para quem precisa de atenção dedicada. A escassez do 1:1 aumenta o valor percebido do F33.</p>
+            <p style="font-size:14px; color:var(--gray); line-height:1.65; margin-bottom:14px;">Para algumas empresas, um modelo diferente: além da mensalidade fixa, a Fast recebe um percentual do crescimento de faturamento gerado. Em contrapartida, o empresário tem acesso ao ecossistema completo dentro de um limite de horas — não só ao grupo e ao Jean.</p>
             <ul class="cell-list" style="margin:0;">
-              <li>Lab: 15 empresários, R$2.500/mês — volume, comunidade, método</li>
-              <li>F33 Premium: 4 clientes, R$25k cada — personalização máxima, acesso exclusivo</li>
+              <li><strong style="color:var(--acid)">Mensalidade fixa</strong> — acesso ao grupo, aos encontros e ao método</li>
+              <li><strong style="color:var(--acid)">% do crescimento</strong> — remuneração variável atrelada ao resultado gerado</li>
+              <li><strong style="color:var(--acid)">Ecossistema incluído</strong> — consultas com advogada, mentoria financeira, acesso a branding e tráfego dentro de limites definidos em contrato</li>
+              <li>A Fast só ganha mais se o empresário crescer — alinhamento total de incentivos</li>
+            </ul>
+          </div>
+          <div style="background:#0e0e0e; padding:24px 28px; border:1px solid var(--acid-border);">
+            <div style="font-size:11px; font-weight:700; letter-spacing:0.12em; text-transform:uppercase; color:var(--acid); margin-bottom:16px;">O que o empresário recebe</div>
+            <ul class="cell-list" style="margin:0;">
+              <li>Acesso ao grupo de pares — a mesa que importa</li>
+              <li>Método Fast de aceleração com o Founder</li>
+              <li>Consultoria jurídica (limite mensal)</li>
+              <li>Mentoria financeira (limite mensal)</li>
+              <li>Acesso a branding e posicionamento</li>
+              <li>Suporte de marketing e tráfego</li>
+            </ul>
+            <div style="margin-top:16px; padding-top:16px; border-top:1px solid var(--line);">
+              <div style="font-size:12px; color:var(--gray); line-height:1.5;">Um ecossistema completo que a maioria dos empresários só teria contratando cada especialista separadamente — a um custo muito maior.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- MODELO HÍBRIDO F33 + LAB -->
+      <div style="border-top:1px solid var(--line); padding-top:24px;">
+        <div style="font-size:11px; font-weight:700; letter-spacing:0.14em; text-transform:uppercase; color:var(--gray); margin-bottom:16px;">Modelo complementar · Lab + F33 Premium</div>
+        <div style="display:grid; grid-template-columns:1fr 1fr; gap:24px; align-items:start;">
+          <div>
+            <p style="font-size:14px; color:var(--gray); line-height:1.65; margin-bottom:12px;">O Lab resolve o volume e a comunidade. O F33 se torna produto de acesso restrito para quem precisa de atenção dedicada. A escassez do 1:1 aumenta o valor percebido do F33.</p>
+            <ul class="cell-list" style="margin:0;">
+              <li>Lab: 15 empresários, R$2.500/mês</li>
+              <li>F33 Premium: 4 clientes, R$25k cada</li>
               <li>Menos horas, mais receita, mais impacto</li>
             </ul>
           </div>
@@ -1307,15 +1337,15 @@ section.visible { opacity: 1; transform: none; }
               </div>
               <div>
                 <div style="font-size:10px; color:var(--gray); letter-spacing:0.1em; text-transform:uppercase; margin-bottom:4px;">Horas/ano</div>
-                <div style="font-family:'Bricolage Grotesque',sans-serif; font-size:28px; font-weight:800; color:var(--acid); letter-spacing:-0.02em;">110h</div>
+                <div style="font-family:'Bricolage Grotesque',sans-serif; font-size:28px; font-weight:800; color:var(--acid); letter-spacing:-0.02em;">160h</div>
               </div>
               <div>
-                <div style="font-size:10px; color:var(--gray); letter-spacing:0.1em; text-transform:uppercase; margin-bottom:4px;">vs hoje</div>
-                <div style="font-family:'Bricolage Grotesque',sans-serif; font-size:28px; font-weight:800; color:var(--acid); letter-spacing:-0.02em;">+267%</div>
+                <div style="font-size:10px; color:var(--gray); letter-spacing:0.1em; text-transform:uppercase; margin-bottom:4px;">Ganho de receita</div>
+                <div style="font-family:'Bricolage Grotesque',sans-serif; font-size:28px; font-weight:800; color:var(--acid); letter-spacing:-0.02em;">+R$100k</div>
               </div>
               <div>
                 <div style="font-size:10px; color:var(--gray); letter-spacing:0.1em; text-transform:uppercase; margin-bottom:4px;">Horas economizadas</div>
-                <div style="font-family:'Bricolage Grotesque',sans-serif; font-size:28px; font-weight:800; color:var(--acid); letter-spacing:-0.02em;">40h/ano</div>
+                <div style="font-family:'Bricolage Grotesque',sans-serif; font-size:28px; font-weight:800; color:var(--acid); letter-spacing:-0.02em;">290h/ano</div>
               </div>
             </div>
           </div>
@@ -1324,7 +1354,7 @@ section.visible { opacity: 1; transform: none; }
 
     </div>
 
-
+  </div>
 </section>
 
 <script>
